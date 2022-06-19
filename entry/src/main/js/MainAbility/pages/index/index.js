@@ -141,8 +141,14 @@ export default {
         this.mode = "spin";
     },
     rinse_imgclick() {
-        this.indication_point_rinse = this.indication_point_rinse;
-        this.mode = "rinse";
+        if(this.indication_point_rinse=="/common/images/indication_point.png"){
+            this.indication_point_rinse="/common/images/indication_point.png";
+        }
+        else{
+            this.indication_point_rinse="/common/images/indication_point.png";
+        }
+        this.indication_point_rinse=this.indication_point_rinse;
+        this.mode="rinse";
     },
     rinse1_imgclick() {
         this.band_cotton = this.band_rinse1;
@@ -157,8 +163,13 @@ export default {
         this.mode = "wool";
     },
     cotton_imgclick() {
-        this.band_cotton = this.band_cotton;
-        this.mode = "wool";
+        if(this.band_cotton=="/common/images/band.png"){
+            this.band_cotton="/common/images/band.png";
+        }
+        else{
+            this.band_cotton="/common/images/band.png";
+        }
+        this.mode="cotton";
     },
     quick_imgclick() {
         this.band_cotton = this.band_quick;
