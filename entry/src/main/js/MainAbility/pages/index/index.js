@@ -105,10 +105,10 @@ export default {
         this.setProgressbarvalue();
     },
     time_calc() {
-        var today = new Date();
-        var hr = today.getHours() + 5;
-        var min = today.getMinutes() + 30;
-        var ampm = "PM";
+        let today = new Date();
+        let hr = today.getHours() + 5;
+        let min = today.getMinutes() + 30;
+        let ampm = "PM";
         if (hr > 12) {
             hr = hr - 12;
         }
