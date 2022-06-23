@@ -16,6 +16,7 @@
 
 // @ts-ignore
 import data from '../../i18n/timer.json';
+
 export default {
     data: {
         null: "",
@@ -141,13 +142,7 @@ export default {
         this.mode = "spin";
     },
     rinse_imgclick() {
-        if (this.indication_point_rinse == "/common/images/indication_point.png") {
-            this.indication_point_rinse = "/common/images/indication_point.png";
-        }
-        else {
-            this.indication_point_rinse = "/common/images/indication_point.png";
-        }
-        this.indication_point_rinse = this.indication_point_rinse;
+        this.indication_point_rinse = "/common/images/indication_point1.png";
         this.mode = "rinse";
     },
     rinse1_imgclick() {
@@ -163,12 +158,7 @@ export default {
         this.mode = "wool";
     },
     cotton_imgclick() {
-        if (this.band_cotton == "/common/images/band.png") {
-            this.band_cotton = "/common/images/band.png";
-        }
-        else {
-            this.band_cotton = "/common/images/band.png";
-        }
+        this.band_cotton = "/common/images/band1.png";
         this.mode = "cotton";
     },
     quick_imgclick() {
