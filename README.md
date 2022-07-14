@@ -1,6 +1,6 @@
 # Smart Wash
 
-一UI design for Smart Bike in OpenHarmony.
+一UI design for Smart Wash in OpenHarmony.
 
 
 ## Smart Wash Design :
